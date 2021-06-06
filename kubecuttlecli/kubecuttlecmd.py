@@ -1,11 +1,15 @@
-
 import os
 import argparse
 from kubecuttle import kubecuttle
 
 
 def create_argparser():
-    parser = argparse.ArgumentParser()    
+    parser = argparse.ArgumentParser()  
+
+    parser.add_argument(
+        'apply',
+        help='Apply a configuration to a resource by filename'
+    )  
     parser.add_argument(
         '-f', '--filename',
         dest='filepath',
@@ -36,12 +40,10 @@ def main():
         parser.error(str(exc.message))
         exit(-1)
     try:
-        result = kubecuttle.apply(filepath=args.filepath)
+        kubecuttle.apply(filepath=args.filepath)
     except kubecuttle.FileNotFoundError:
         print('\npath or file do not exist(s), please check and provide a valid path of yaml file\n')
         exit(-1)
-
-    print(result)
 
 if __name__ == '__main__':
     main()
