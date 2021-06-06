@@ -6,10 +6,11 @@ alternative to kubectl using python kubernetes client
 
 ## Install on Local
 
-Install with pip:
+Install on your local:
 
-```make
-install
+```
+make install
+
 ```
 
 See the [install](install.md) page for information on installation instructions.
