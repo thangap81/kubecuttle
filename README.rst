@@ -6,30 +6,17 @@ kubecuttle
 Installation
 ============
 
-```make
-install
-```
+`make install` To install `kubecuttle` to your local environment
 
 Usage
 =====
 
-Run `kubecuttle` at the command line to get a options:
+Once installed, simply call `kubecuttle` from the command line or add it to your
+.bashrc file
 
-```
-$ kubecuttle
-usage: 
- kubecuttle -h
-```
+Use the `-h` flag to get Options::
 
-Run `kubecuttle -h` at the command line to get a options:
-
-```
-$ kubecuttle --help
-usage: kubecuttle [-h] [-f FILEPATH]
-
-optional arguments:
-  -h, --help            show this help message and exit
-  -f FILEPATH, --filename FILEPATH
-                        that contains the configuration to apply
-```
+    -h  --help show this help message and exit
+    -f FILEPATH, --filename FILEPATH
+  
 
