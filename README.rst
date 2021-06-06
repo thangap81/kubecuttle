@@ -6,22 +6,30 @@ kubecuttle
 Installation
 ============
 
+```make
+install
+```
 
 Usage
 =====
 
+Run `kubecuttle` at the command line to get a options:
 
-Contributors
-============
+```
+$ kubecuttle
+usage: 
+ kubecuttle -h
+```
 
-Development:
+Run `kubecuttle -h` at the command line to get a options:
 
-* `Prabhu Thangaraj`_
+```
+$ kubecuttle --help
+usage: kubecuttle [-h] [-f FILEPATH]
 
-Contributing
-============
+optional arguments:
+  -h, --help            show this help message and exit
+  -f FILEPATH, --filename FILEPATH
+                        that contains the configuration to apply
+```
 
-* The code is licensed under the `BSD Licence`_
-* The project source code is hosted on `GitHub`_
-* Please use `GitHub issues`_ to submit bugs and report issues
-* Feel free to `contribute`_ to the code
