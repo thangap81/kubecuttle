@@ -24,7 +24,7 @@ Use the `-h` flag to get Options::
 Example
 =======
 
-Return of None explains the successfull deployment, in future considered to return the exact objects created, e.g. pod(s) created, deployment created etc.,::
+Return of None explains the successfull deployment, in future considered to return the exact objects created, e.g. pod(s) created, deployment created etc::
 
     $ kubecuttle -f /tmp/nginx-deployment.yaml 
     None
