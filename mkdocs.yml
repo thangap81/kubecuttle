@@ -1,0 +1,9 @@
+site_name: kubecuttle
+theme: mkdocs
+repo_url: https://github.com/thangap81/kubecuttle
+site_description: kubecuttle alternative for kubectl
+site_author: Prabhu Thangaraj
+site_dir: website
+nav:
+    - 'Home': 'index.md'
+    - 'Install': 'install.md'
