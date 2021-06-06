@@ -13,9 +13,11 @@ pip3 install kubernetes json mkdocs
 To avoid runing make install as root, please provide write access to the user to /Library/Python/3.x/site-packages/
 you may encounter the error while executing make install and the path as well should be available from the error
 
+```
 Other noted issue is unable to find the kunernetes module though installed successfully in previous step
 
-add this to your .bashrc and source it, to find the path where packages are installed 
+```
+add the bewlow line to your .bashrc and source it, to find the path where packages are installed 
 
 export PYTHONPATH="/usr/local/lib/python3.8/site-packages"
 
