@@ -18,15 +18,23 @@ Once installed, simply call `kubecuttle` from the command line or add it to your
 
 Use the `-h` flag to get Options::
 
-    -h  --help show this help message and exit
-    -f FILEPATH, --filename FILEPATH
+    $ kubecuttle -h
+    usage: kubecuttle [-h] [-f FILEPATH] apply
+
+    positional arguments:
+      apply                 Apply a configuration to a resource by filename
+
+    optional arguments:
+      -h, --help            show this help message and exit
+      -f FILEPATH, --filename FILEPATH
+                            that contains the configuration to apply
   
 Example
 =======
 
 Return of None explains the successfull deployment, in future considered to return the exact objects created, e.g. pod(s) created, deployment created etc::
 
-    $ kubecuttle -f /tmp/nginx-deployment.yaml 
+    $ kubecuttle apply -f /tmp/nginx-deployment.yaml 
     None
     $
 
