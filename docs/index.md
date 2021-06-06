@@ -23,15 +23,18 @@ Run `kubecuttle` at the command line to get a options:
 
 ```
 $ kubecuttle
-usage: 
- kubecuttle -h
+usage: kubecuttle [-h] [-f FILEPATH] apply
+kubecuttle: error: the following arguments are required: apply
 ```
 
 Run `kubecuttle -h` at the command line to get a options:
 
 ```
 $ kubecuttle --help
-usage: kubecuttle [-h] [-f FILEPATH]
+usage: kubecuttle [-h] [-f FILEPATH] apply
+
+positional arguments:
+  apply                 Apply a configuration to a resource by filename
 
 optional arguments:
   -h, --help            show this help message and exit
