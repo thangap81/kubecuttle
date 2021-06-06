@@ -21,7 +21,9 @@ Use the `-h` flag to get Options::
     -h  --help show this help message and exit
     -f FILEPATH, --filename FILEPATH
   
-example:
+Example
+=======
+
 Return of None explains the successfull deployment, in future considered to return the exact objects created, e.g. pod(s) created, deployment created etc.,::
 
     $ kubecuttle -f /tmp/nginx-deployment.yaml 
