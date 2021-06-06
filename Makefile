@@ -18,3 +18,10 @@ install: $(SUBDIRS)
 
 doc:
 	$(MKDOCS) build
+
+$(SUBDIRS):
+	$(MAKE) -C $@
+
+.PHONY: all install $(SUBDIRS)
+	
+	
