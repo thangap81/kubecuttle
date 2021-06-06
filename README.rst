@@ -8,7 +8,7 @@ Installation
 
 To install `kubecuttle` to your local environment::
 
-make install
+    make install
 
 Usage
 =====
