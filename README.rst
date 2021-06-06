@@ -6,7 +6,9 @@ kubecuttle
 Installation
 ============
 
-`make install` To install `kubecuttle` to your local environment
+To install `kubecuttle` to your local environment::
+
+`make install` 
 
 Usage
 =====
